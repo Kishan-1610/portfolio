@@ -1,5 +1,8 @@
+/* Original styles */
+
 .App {
   text-align: center;
+  background-color: rgb(0, 0, 71);
 }
 
 .App-logo {
@@ -24,6 +27,20 @@
   color: white;
 }
 
+.rev {
+  padding: 30px;
+  background-color: rgb(0, 0, 71);
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(255, 102, 102);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 20px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -34,5 +51,48 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Media queries corrected */
+
+@media screen and (max-width: 600px) {
+  .rev {
+    padding: 12px;
+    background-color: #61dafb;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .rev {
+    padding: 8px;
+    background-color: #61dafb;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 210px) {
+  .rev {
+    padding: 8px;
+    background-color: #61dafb;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  h1 {
+    font-size: 5px;
   }
 }

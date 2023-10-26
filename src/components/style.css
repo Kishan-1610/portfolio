@@ -1,0 +1,27 @@
+.c1{
+    text-align: center;
+}
+.vas{
+    text-align: center;
+    padding: 30px;
+    margin: 5%;
+    background-color: white;
+    border: 30px solid voilet;
+    border-radius: 20px;
+    font-size: 20px;
+    color:rgb(3, 3, 56);
+}
+table{
+    margin: 0% 33% 0% ;
+}
+img{
+    height: 150px;
+    width: 100px;
+}
+.language-box{
+    padding: 10px;
+}
+.kal{
+    background-color: lightgreen;
+    padding: 10px;
+}
